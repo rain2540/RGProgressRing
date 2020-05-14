@@ -22,6 +22,17 @@ class RGProgressRing: UIView {
     
     public var clockwise: Bool = true
     
+    private var backgroundBezierPath: UIBezierPath {
+        let width = bounds.width
+        return UIBezierPath(
+            arcCenter: CGPoint(x: width / 2.0, y: width / 2.0),
+            radius: width / 2.0,
+            startAngle: 0.0,
+            endAngle: CGFloat(Double.pi * 2.0),
+            clockwise: true
+        )
+    }
+    
 
     /*
     // Only override draw() if you perform custom drawing.
