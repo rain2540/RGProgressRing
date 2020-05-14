@@ -33,6 +33,22 @@ class RGProgressRing: UIView {
         )
     }
     
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        setupSubviews()
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupSubviews()
+    }
+    
+    private func setupSubviews() {
+        
+    }
+    
 
     /*
     // Only override draw() if you perform custom drawing.
