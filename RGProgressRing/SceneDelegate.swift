@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RGProgressRing
 //
-//  Created by Rain on 2020/5/14.
+//  Created by Rain on 2020/5/4.
 //  Copyright © 2020 Smartech. All rights reserved.
 //
 

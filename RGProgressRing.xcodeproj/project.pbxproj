@@ -15,6 +15,7 @@
 		B7FE9693246D913200DF2359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FE9691246D913200DF2359 /* LaunchScreen.storyboard */; };
 		B7FE969E246D913300DF2359 /* RGProgressRingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE969D246D913300DF2359 /* RGProgressRingTests.swift */; };
 		B7FE96A9246D913300DF2359 /* RGProgressRingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE96A8246D913300DF2359 /* RGProgressRingUITests.swift */; };
+		B7FE96B7246D932800DF2359 /* RGProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FE96B6246D932800DF2359 /* RGProgressRing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B7FE96A4246D913300DF2359 /* RGProgressRingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGProgressRingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FE96A8246D913300DF2359 /* RGProgressRingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGProgressRingUITests.swift; sourceTree = "<group>"; };
 		B7FE96AA246D913300DF2359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FE96B6246D932800DF2359 /* RGProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGProgressRing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B7FE9686246D912D00DF2359 /* AppDelegate.swift */,
 				B7FE9688246D912D00DF2359 /* SceneDelegate.swift */,
 				B7FE968A246D912D00DF2359 /* ViewController.swift */,
+				B7FE96B6246D932800DF2359 /* RGProgressRing.swift */,
 				B7FE968C246D912D00DF2359 /* Main.storyboard */,
 				B7FE968F246D913200DF2359 /* Assets.xcassets */,
 				B7FE9691246D913200DF2359 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FE968B246D912D00DF2359 /* ViewController.swift in Sources */,
+				B7FE96B7246D932800DF2359 /* RGProgressRing.swift in Sources */,
 				B7FE9687246D912D00DF2359 /* AppDelegate.swift in Sources */,
 				B7FE9689246D912D00DF2359 /* SceneDelegate.swift in Sources */,
 			);
