@@ -9,6 +9,19 @@
 import UIKit
 
 class RGProgressRing: UIView {
+    
+    public var progressValue: CGFloat = 0.0
+    
+    public var contentText: String = ""
+    
+    public var fillColor = UIColor.lightGray
+    
+    public var contentColor = UIColor.red
+    
+    public var startAngle: CGFloat = 0.0
+    
+    public var clockwise: Bool = true
+    
 
     /*
     // Only override draw() if you perform custom drawing.
